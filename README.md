@@ -6,6 +6,9 @@ This app is an assignment of the Udemy course **_100 Days of Code: The Complete 
 
 Originally this was supposed to be built with tkinter, but I came across a youtube video that briefly talked about [**NiceGUI**](https://nicegui.io/) and after reading their docs I couldn't resist trying it. I'm actually super happy I did it, it's been fun learning to use this framework, even though I feel that my code is a bit of a mess, as I'm still a beginner programmer 😅.
 
+## Video 
+[screen-recording](<vids and screens/Grabación de pantalla 2025-05-29 180617.mp4>)
+
 ## ℹ️ How it works
 By default this test is using the top 200 most common words in the English language. But you can choose a bigger set of words in the settings menu. The available options are 200 words, 500, 1k, 3k and 5k. Remember that the bigger the sample size, the more "rare" words you'll get.
 
