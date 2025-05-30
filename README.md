@@ -8,7 +8,12 @@ Originally this was supposed to be built with tkinter, but I came across a youtu
 
 ## Video 
 
-![screen-recording](<vids and screens/Grabación de pantalla 2025-05-29 180617.mp4>)
+
+https://github.com/user-attachments/assets/455c099f-17ed-44d8-ade2-a139f93e1861
+
+
+
+
 
 ## ℹ️ How it works
 By default this test is using the top 200 most common words in the English language. But you can choose a bigger set of words in the settings menu. The available options are 200 words, 500, 1k, 3k and 5k. Remember that the bigger the sample size, the more "rare" words you'll get.
