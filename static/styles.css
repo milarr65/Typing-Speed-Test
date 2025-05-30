@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.rm-md{
+font-family: 'Roboto Mono';
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+.q-page{
+  overflow-y: hidden !important;
+}
+
+
+/* Hide scrollbar for WebKit browsers */
+.my-sb::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  padding-right: 5px;
+}
+
+/* On hover, show styled scrollbar */
+.my-sb:hover::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Style the thumb */
+.my-sb:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(144, 144, 144, 0.306); /* semi-transparent */
+  border-radius: 8px;
+}
+
+/* Optional: hide track */
+.my-sb:hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.my-sb {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scrollbar-color: #90909061 rgb(87 87 87 / 0%);
+}
+
+.my-sb:hover{
+  -ms-overflow-style: scroll;
+  scrollbar-width: thin;
+}
+          
+.word{
+  display: flex;
+  flex-direction: row;
+  font-size: 3rem;
+  line-height: 1em;
+  width: fit-content;
+  padding: 10px;
+}
+
+.letter.wrong{color: var(--q-negative);}
+
+.word.wrong{
+  text-decoration: underline var(--q-negative);
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  opacity: 0.5;
+}
+
+.letter.correct, 
+.letter.wrong{
+  opacity: 1;
+}
+
+.letter.missed{
+  opacity: 0.4;
+}
+
+.big-num{
+  font-size: 4.25rem !important;
+  line-height: 2.2rem;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/***+ Cursor ******/
+.cursor-left::before {
+  left: 0;
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 105%;
+  background: var(--q-primary) !important;
+  animation: pulse 1s ease-in-out infinite;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.cursor::after{
+  
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 105%;
+  background: var(--q-primary) !important;
+  animation: pulse 2s ease-in-out infinite;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% { 
+    opacity: 0.2;
+  }
+}
+
+.timer{
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 5px;
+}
+          
+.extra{
+  color: var(--q-secondary);
+  opacity: 1;
+  font-style: italic;
+}
+
+.q-dark{
+  background: var(--q-dark-page) !important;
+}
