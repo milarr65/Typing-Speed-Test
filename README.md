@@ -7,7 +7,8 @@ This app is an assignment of the Udemy course **_100 Days of Code: The Complete 
 Originally this was supposed to be built with tkinter, but I came across a youtube video that briefly talked about [**NiceGUI**](https://nicegui.io/) and after reading their docs I couldn't resist trying it. I'm actually super happy I did it, it's been fun learning to use this framework, even though I feel that my code is a bit of a mess, as I'm still a beginner programmer 😅.
 
 ## Video 
-[screen-recording](<vids and screens/Grabación de pantalla 2025-05-29 180617.mp4>)
+
+![screen-recording](<vids and screens/Grabación de pantalla 2025-05-29 180617.mp4>)
 
 ## ℹ️ How it works
 By default this test is using the top 200 most common words in the English language. But you can choose a bigger set of words in the settings menu. The available options are 200 words, 500, 1k, 3k and 5k. Remember that the bigger the sample size, the more "rare" words you'll get.
@@ -38,7 +39,7 @@ You need to have python installed (I'm using python 3.13.1)
 1. Git clone this repository, or download as a zip file and extract its contents.
    
    ```
-   git clone <link to this repo>
+   git clone https://github.com/milarr65/Typing-Speed-Test.git
    ```
 
 2. Open the directory in a dedicated terminal, or in your preferred text editor. (I use VSCode)
@@ -61,11 +62,10 @@ You need to have python installed (I'm using python 3.13.1)
     ```
 
 > [!Note]
-
 > By default the app will show up as a pop-up window in your computer. To run it as a webpage inside your browser: In main.py, set `native=False` inside `ui.run()`. 
 > 
 > Optional: If you want nicegui to reload the browser page every time it detects changes in the code set `reload=True`
-  
-  ```python
-  ui.run(native=False, reload=True)
-  ```
+>  
+ >```python
+  >ui.run(native=False, reload=True)
+  >```
