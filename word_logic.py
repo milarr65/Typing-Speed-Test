@@ -48,9 +48,9 @@ def mix_word_types(word_types: list[str], amount: int, **kwargs) -> list[str]:
 
     Args:
         word_types (list[str]): At least 2 of the three lists available ('short', 'medium', 'long').
-        amount (int): The total amount of words desired. If this is larger than the list, it will raise an error.
+        amount (int): The total amount of words the function will output. If this is larger than the list, it will raise an error.
         pref (str): (Optional) The type of word that should get priority.
-        word_var (int): (Optional) The sample size that will be displayed for the user. 
+        word_var (int): (Optional) Size of the word sample the code will shuffle through. 
 
     Returns:
         list[str]: A list of random words.
