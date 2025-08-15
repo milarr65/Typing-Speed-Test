@@ -6,7 +6,12 @@ Originally this was supposed to be built with tkinter, but I came across a youtu
 
 ## Video
 
-![screen-recording](<vids and screens/Grabación de pantalla 2025-05-29 180617.mp4>)
+
+https://github.com/user-attachments/assets/455c099f-17ed-44d8-ade2-a139f93e1861
+
+
+
+
 
 ## ℹ️ How it works
 
