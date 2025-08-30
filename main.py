@@ -32,7 +32,7 @@ with frame():
 ui.run(title="Typing Speed Test", 
        favicon=my_icon, 
        show=False, 
-       native=True, 
+       native=False, 
        port=native.find_open_port(),
        reload=False)
 
