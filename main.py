@@ -18,9 +18,6 @@ ui.add_head_html(f'''
                  <link type="image/png" sizes="96x96" rel="icon" href="/media/icons8-t-key-color-96.png">
                  ''')
 
-my_icon = "Typing Speed Test\\media\\icons8-t-key-96.png"
-
-
 ui.tooltip.default_classes('rm-md text-sm bg-dark')
 
 
@@ -30,9 +27,8 @@ with frame():
 
 
 ui.run(title="Typing Speed Test", 
-       favicon=my_icon, 
        show=False, 
        native=False, 
        port=native.find_open_port(),
-       reload=False)
+       reload=True)
 

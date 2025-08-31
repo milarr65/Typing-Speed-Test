@@ -1,19 +1,16 @@
 import random
-from pathlib import Path
 import math
 
-lists_folder = Path(__file__).parent / 'word-lists'
-
 # Load word lists from files
-with open(f"{lists_folder}\\google-10000-english-no-swear-medium.txt", 'r') as medium:
+with open("./word-lists/google-10000-english-no-swear-medium.txt", 'r') as medium:
     data = medium.readlines()
     MEDIUM_WORDS = [word.strip("\n") for word in data]
 
-with open(f"{lists_folder}\\google-10000-english-no-swear-short.txt", 'r') as short:
+with open("./word-lists/google-10000-english-no-swear-short.txt", 'r') as short:
     data = short.readlines()
     SHORT_WORDS = [word.strip("\n") for word in data]
 
-with open(f"{lists_folder}\\google-10000-english-no-swear-long.txt", 'r') as long:
+with open("./word-lists/google-10000-english-no-swear-long.txt", 'r') as long:
     data = long.readlines()
     LONG_WORDS = [word.strip("\n") for word in data]
 
